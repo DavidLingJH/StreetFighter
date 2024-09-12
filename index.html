@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Fighter | HWUM CPU</title>
+    <style>
+        html, body{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        body{
+            display: flex;
+        }
+
+        body,
+        canvas{
+            background-color: black;
+        }
+
+        canvas{
+            width: 100%;
+            object-fit: contain;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+        }
+
+        img{
+            display: none;
+        }
+    </style>
+    <script type="module" src="src/index.js"></script>
+</head>
+<body>
+    <canvas width="384" height="224"></canvas>
+
+    <img src="images/ken-stage.png" alt="stage">
+    <img src="images/misc.png" alt="misc">
+    <img src="images/decals.png" alt="decals">
+    <img src="images/shadow.png" alt="shadow">
+    <img src="images/Ryu.png" alt="ryu">
+    <img src="images/Ken.png" alt="ken">
+
+    <audio src="sounds/theme-ken-main.cps1.ogg" id="theme-ken" preload="auto" loop></audio>
+
+    <audio src="sounds/land.ogg" id="sound-fighter-land" preload="auto"></audio>
+
+    <audio src="sounds/light-attack.ogg" id="sound-light-attack" preload="auto"></audio>
+    <audio src="sounds/light-punch-hit.ogg" id="sound-light-punch-hit" preload="auto"></audio>
+    <audio src="sounds/light-kick-hit.ogg" id="sound-light-kick-hit" preload="auto"></audio>
+    
+    <audio src="sounds/medium-attack.ogg" id="sound-medium-attack" preload="auto"></audio>
+    <audio src="sounds/medium-punch-hit.ogg" id="sound-medium-punch-hit" preload="auto"></audio>
+    <audio src="sounds/medium-kick-hit.ogg" id="sound-medium-kick-hit" preload="auto"></audio>
+
+    <audio src="sounds/heavy-attack.ogg" id="sound-heavy-attack" preload="auto"></audio>
+    <audio src="sounds/heavy-punch-hit.ogg" id="sound-heavy-punch-hit" preload="auto"></audio>
+    <audio src="sounds/heavy-kick-hit.ogg" id="sound-heavy-kick-hit" preload="auto"></audio>
+
+    <audio src="sounds/voice-hadouken.ogg" id="sound-ken-voice-hadouken" preload="auto"></audio>
+    <audio src="sounds/voice-hadouken.ogg" id="sound-ryu-voice-hadouken" preload="auto"></audio>
+</body>
+</html>
