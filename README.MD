@@ -1,4 +1,4 @@
-# 🥊 Street Fighter JS: Local Multiplayer
+# 🥊 Street Fighter JS: Local Multiplayer Game
 
 <img src="images/Demo.png" alt="Game Screenshot" width="600">
 
