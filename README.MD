@@ -8,7 +8,7 @@
 - <b>Hardware Integration:</b> Integrated PS4 controller support, mapped alongside traditional keyboard inputs
 - <b>Collision System:</b> Implemented AABB (Axis-Aligned Bounding Box) collision detection to manage hitboxes and hurtboxes, ensuring combat interactions and health bar updates are calculated on each frame.
 
-## Controls & Mechanics
+## 🎮 Controls & Mechanics
 
 Note: To begin, click or press any key on the black screen at the start of the game to initialize the audio and input context.
 
